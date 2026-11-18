@@ -1,0 +1,14 @@
+{
+  "sam3": {
+    "url": "https://github.com/facebookresearch/sam3.git",
+    "commit": "2345a4ad109ac29c569da749c91d84f10dc08c40"
+  },
+  "vggt": {
+    "url": "https://github.com/facebookresearch/vggt.git",
+    "commit": "a288dd0f14786c93483e45524328726ab7b1b4ce"
+  },
+  "lumen": {
+    "url": "https://github.com/stopaimme/lumen.git",
+    "commit": "dd97e9b33d51af0358d51bc889356c1c3ffa499d"
+  }
+}

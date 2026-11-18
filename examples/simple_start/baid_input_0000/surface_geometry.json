@@ -1,0 +1,307 @@
+{
+  "contract": "surface_planes_v1",
+  "source": "VGGT depth; masked RANSAC/SVD planes, no added model",
+  "frame": "blender_world",
+  "world_axes": "+X image-right, +Y camera-forward, +Z image-up; gravity is not observed",
+  "units": "existing scene scale gauge; not measured physical meters",
+  "thresholds": {
+    "plane_distance": 0.01,
+    "min_inlier_frac": 0.6,
+    "min_mask_frac": 0.02,
+    "min_points": 10,
+    "ransac_iterations": 200,
+    "max_fit_points": 5000
+  },
+  "gravity": {
+    "available": false,
+    "reason": "no usable masked supporting surface; world +Z is image-up, not measured gravity"
+  },
+  "surfaces": {
+    "obj_001": {
+      "id": "obj_001",
+      "label": "Visible exterior paving",
+      "role": "ground",
+      "reliable": false,
+      "plane": null,
+      "mask_pixels": 4396,
+      "mask_frac": 0.011179606119791666,
+      "valid_pixels": 0,
+      "valid_fraction_of_mask": 0.0,
+      "reason": "mask covers less than 2% of the frame; orientation is not an anchor"
+    },
+    "obj_002": {
+      "id": "obj_002",
+      "label": "Dark interior wall",
+      "role": "wall",
+      "reliable": false,
+      "plane": null,
+      "mask_pixels": 90309,
+      "mask_frac": 0.22966766357421875,
+      "valid_pixels": 87867,
+      "valid_fraction_of_mask": 0.9729595056971067,
+      "fit_quality": {
+        "inlier_frac": 0.5884,
+        "inliers": 2942,
+        "sampled_pixels": 5000,
+        "median_residual": 0.004899106869701722
+      },
+      "reason": "plane inlier fraction below 0.6; mixed or non-planar evidence"
+    },
+    "obj_003": {
+      "id": "obj_003",
+      "label": "Main window aperture",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_004": {
+      "id": "obj_004",
+      "label": "Main window glazing",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_005": {
+      "id": "obj_005",
+      "label": "Narrow right window aperture",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_006": {
+      "id": "obj_006",
+      "label": "Narrow right window glazing",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_007": {
+      "id": "obj_007",
+      "label": "Central window mullion",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_008": {
+      "id": "obj_008",
+      "label": "Right window jamb and reveal",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_009": {
+      "id": "obj_009",
+      "label": "Power-bank rental kiosk cabinet",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_010": {
+      "id": "obj_010",
+      "label": "Kiosk upper support plane",
+      "role": "support_surface",
+      "reliable": false,
+      "plane": null,
+      "reason": "reference segmentation unavailable"
+    },
+    "obj_011": {
+      "id": "obj_011",
+      "label": "Takeaway drink cup",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_012": {
+      "id": "obj_012",
+      "label": "Transparent domed cup lid",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_013": {
+      "id": "obj_013",
+      "label": "Drink straw",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_014": {
+      "id": "obj_014",
+      "label": "Clear acrylic upright panel",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_015": {
+      "id": "obj_015",
+      "label": "Green plant pot",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_016": {
+      "id": "obj_016",
+      "label": "Succulent plant foliage",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_017": {
+      "id": "obj_017",
+      "label": "Lower-left cafe table frame",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_018": {
+      "id": "obj_018",
+      "label": "Lower-left cafe tabletop",
+      "role": "tabletop",
+      "reliable": false,
+      "plane": null,
+      "reason": "reference segmentation unavailable"
+    },
+    "obj_019": {
+      "id": "obj_019",
+      "label": "Left metal cafe chair",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_020": {
+      "id": "obj_020",
+      "label": "Right metal cafe chair",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_021": {
+      "id": "obj_021",
+      "label": "Exterior pedestrian railing",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_022": {
+      "id": "obj_022",
+      "label": "Exterior diagonal white pole",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_023": {
+      "id": "obj_023",
+      "label": "Yellow exterior booth",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_024": {
+      "id": "obj_024",
+      "label": "Colorful booth rooftop decoration",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_025": {
+      "id": "obj_025",
+      "label": "Exterior rectangular signboard",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_026": {
+      "id": "obj_026",
+      "label": "Exterior high-rise facade",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_027": {
+      "id": "obj_027",
+      "label": "Far-left pedestrian",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_028": {
+      "id": "obj_028",
+      "label": "Left light-clothed pedestrian",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_029": {
+      "id": "obj_029",
+      "label": "Adjacent light-clothed pedestrian",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_030": {
+      "id": "obj_030",
+      "label": "Blue-clothed pedestrian behind chairs",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_031": {
+      "id": "obj_031",
+      "label": "Dark-clothed central pedestrian",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_032": {
+      "id": "obj_032",
+      "label": "Left pedestrian at booth",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    },
+    "obj_033": {
+      "id": "obj_033",
+      "label": "Right pedestrian at booth",
+      "role": "object",
+      "reliable": false,
+      "plane": null,
+      "reason": "not a planar root surface; do not flatten this object to a plane"
+    }
+  },
+  "instructions": [
+    "Use only reliable=true plane records as position/orientation anchors.",
+    "No plane for an object does not mean no geometry. Use its description and the reference image.",
+    "A plane point lies on the visible surface, not at the object's volume center.",
+    "Fit quality is a geometric diagnostic, not a calibrated probability.",
+    "All vectors are already in the current Blender world frame; do not rotate the camera or lights.",
+    "No dense normal image is supplied; compare surfaces by stable object IDs and numeric plane evidence."
+  ]
+}

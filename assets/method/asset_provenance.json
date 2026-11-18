@@ -1,0 +1,78 @@
+{
+  "run": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000",
+  "selection": {
+    "best_round": 6,
+    "last_round": 9,
+    "selection": "minimum fixed-weight selection_loss among completed rounds",
+    "round_losses": [
+      {
+        "round": 0,
+        "loss": 0.230972868447201
+      },
+      {
+        "round": 1,
+        "loss": 0.21831249365372848
+      },
+      {
+        "round": 2,
+        "loss": 0.20967381526824683
+      },
+      {
+        "round": 3,
+        "loss": 0.20173424314950503
+      },
+      {
+        "round": 4,
+        "loss": 0.20611109552935347
+      },
+      {
+        "round": 5,
+        "loss": 0.20615711402334772
+      },
+      {
+        "round": 6,
+        "loss": 0.20124305171629608
+      },
+      {
+        "round": 7,
+        "loss": 0.20378072819300583
+      },
+      {
+        "round": 8,
+        "loss": 0.20377114849639355
+      },
+      {
+        "round": 9,
+        "loss": 0.203733991574471
+      }
+    ],
+    "state_matches_selected_scene": true,
+    "note": "run/state.json is the latest state; final/state.json belongs to best_round"
+  },
+  "assets": {
+    "reference.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/evidence/reference.png",
+    "render.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/final/render.png",
+    "depth.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/evidence/geometry/depth.png",
+    "albedo.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/evidence/intrinsics/albedo.png",
+    "shading.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/evidence/intrinsics/shading.png",
+    "environment.png": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/evidence/environment/environment.png"
+  },
+  "masks": "Categorical visualization of archived SAM3 mask arrays",
+  "surface_planes": "Schematic plane/normal glyph; no normal-map input to agents",
+  "examples": [
+    {
+      "name": "initial",
+      "round": 0,
+      "loss": 0.230972868447201,
+      "source": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/round_000/attempt_000/render/rgb.png",
+      "file": "initial.png"
+    },
+    {
+      "name": "best",
+      "round": 6,
+      "loss": 0.20124305171629608,
+      "source": "runs/batch_six_10rounds/hypersim_ai_012_004_frame0025/attempt_000/round_006/attempt_000/render/rgb.png",
+      "file": "best.png"
+    }
+  ]
+}

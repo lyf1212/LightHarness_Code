@@ -1,0 +1,236 @@
+{
+  "obj_001": {
+    "available": false,
+    "reason": "too few high-confidence depth pixels"
+  },
+  "obj_002": {
+    "available": true,
+    "visible_surface_center_world": [
+      1.3287669011193246,
+      4.143178462982178,
+      0.22771490426163724
+    ],
+    "visible_surface_p05_world": [
+      0.9519849642902696,
+      3.650085616111755,
+      -0.9299426431241468
+    ],
+    "visible_surface_p95_world": [
+      1.4843407390868293,
+      5.242333269119262,
+      1.1589755568559366
+    ],
+    "median_z": 4.143178462982178,
+    "pixels": 87867,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_003": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_004": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_005": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_006": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_007": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_008": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_009": {
+    "available": true,
+    "visible_surface_center_world": [
+      0.3733158247765192,
+      3.7684526443481445,
+      -0.5995564254935123
+    ],
+    "visible_surface_p05_world": [
+      -0.21119750270594354,
+      3.6493942022323607,
+      -0.9983953136368617
+    ],
+    "visible_surface_p95_world": [
+      0.9728990186348457,
+      4.1762255191802975,
+      -0.17555541729916205
+    ],
+    "median_z": 3.7684526443481445,
+    "pixels": 69675,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_010": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_011": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_012": {
+    "available": true,
+    "visible_surface_center_world": [
+      -0.07137038886654397,
+      4.657229900360107,
+      0.288694903714929
+    ],
+    "visible_surface_p05_world": [
+      -0.23452767060886992,
+      4.6115663051605225,
+      0.22280329456716397
+    ],
+    "visible_surface_p95_world": [
+      0.08629706107392682,
+      4.786445498466492,
+      0.3814162094763596
+    ],
+    "median_z": 4.657229900360107,
+    "pixels": 2116,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_013": {
+    "available": true,
+    "visible_surface_center_world": [
+      -0.05673939825812993,
+      4.6477885246276855,
+      0.34371837006902817
+    ],
+    "visible_surface_p05_world": [
+      -0.07145916391739673,
+      4.627421474456787,
+      0.296794800977562
+    ],
+    "visible_surface_p95_world": [
+      -0.04658034736713065,
+      4.757810831069946,
+      0.40473485963679645
+    ],
+    "median_z": 4.6477885246276855,
+    "pixels": 103,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_014": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_015": {
+    "available": true,
+    "visible_surface_center_world": [
+      0.6490434013536289,
+      4.138448238372803,
+      0.09711869293592165
+    ],
+    "visible_surface_p05_world": [
+      0.4754702247358687,
+      4.105193614959717,
+      -0.09987312057782799
+    ],
+    "visible_surface_p95_world": [
+      0.8588076319368748,
+      4.268267250061035,
+      0.26432923621949284
+    ],
+    "median_z": 4.138448238372803,
+    "pixels": 8397,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_016": {
+    "available": true,
+    "visible_surface_center_world": [
+      0.7699966853105963,
+      4.2823474407196045,
+      0.3750436028409704
+    ],
+    "visible_surface_p05_world": [
+      0.42182649064352035,
+      4.1973735094070435,
+      0.22960830771945684
+    ],
+    "visible_surface_p95_world": [
+      0.9988126067820348,
+      4.598242163658142,
+      0.5376824167270453
+    ],
+    "median_z": 4.282347679138184,
+    "pixels": 6016,
+    "note": "visible surface bounds, not a complete 3D object box"
+  },
+  "obj_017": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_018": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_019": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_020": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_021": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_022": {
+    "available": false,
+    "reason": "too few high-confidence depth pixels"
+  },
+  "obj_023": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_024": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_025": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_026": {
+    "available": false,
+    "reason": "too few high-confidence depth pixels"
+  },
+  "obj_027": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_028": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_029": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_030": {
+    "available": false,
+    "reason": "too few high-confidence depth pixels"
+  },
+  "obj_031": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_032": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  },
+  "obj_033": {
+    "available": false,
+    "reason": "SAM3 did not identify a unique matching instance"
+  }
+}

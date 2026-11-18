@@ -1,0 +1,426 @@
+{
+  "normal_contract": "surface_planes_v1",
+  "render_settings": {
+    "samples": 512,
+    "denoising": true,
+    "denoiser": "OPENIMAGEDENOISE",
+    "use_adaptive_sampling": true,
+    "adaptive_threshold": 0.009999999776482582,
+    "adaptive_min_samples": 0,
+    "rgb_output": "denoised",
+    "rgb_linear_source": "Noisy Image"
+  },
+  "metrics": {
+    "silhouette_iou": {
+      "available": true,
+      "value": 0.4677472700385126,
+      "per_object": {
+        "obj_001": {
+          "available": true,
+          "value": 0.0,
+          "reference_pixels": 4396,
+          "rendered_pixels": 0
+        },
+        "obj_002": {
+          "available": true,
+          "value": 0.9335372665295512,
+          "reference_pixels": 90309,
+          "rendered_pixels": 94891
+        },
+        "obj_003": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_004": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_005": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_006": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_007": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_008": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_009": {
+          "available": true,
+          "value": 0.9510621779942127,
+          "reference_pixels": 69699,
+          "rendered_pixels": 68524
+        },
+        "obj_010": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_011": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_012": {
+          "available": true,
+          "value": 0.8549889135254989,
+          "reference_pixels": 2238,
+          "rendered_pixels": 1945
+        },
+        "obj_013": {
+          "available": true,
+          "value": 0.5,
+          "reference_pixels": 297,
+          "rendered_pixels": 165
+        },
+        "obj_014": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_015": {
+          "available": true,
+          "value": 0.8792489478795726,
+          "reference_pixels": 8398,
+          "rendered_pixels": 9017
+        },
+        "obj_016": {
+          "available": true,
+          "value": 0.55863539445629,
+          "reference_pixels": 6050,
+          "rendered_pixels": 6377
+        },
+        "obj_017": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_018": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_019": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_020": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_021": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_022": {
+          "available": true,
+          "value": 0.0,
+          "reference_pixels": 1371,
+          "rendered_pixels": 0
+        },
+        "obj_023": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_024": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_025": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_026": {
+          "available": true,
+          "value": 0.0,
+          "reference_pixels": 129759,
+          "rendered_pixels": 0
+        },
+        "obj_027": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_028": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_029": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_030": {
+          "available": true,
+          "value": 0.0,
+          "reference_pixels": 1242,
+          "rendered_pixels": 0
+        },
+        "obj_031": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_032": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        },
+        "obj_033": {
+          "available": false,
+          "value": null,
+          "reason": "reference SAM3 mask unavailable"
+        }
+      }
+    },
+    "relative_depth": {
+      "available": true,
+      "value": 0.0354439839720726,
+      "alignment": "positive median scale, no shift",
+      "scale": 1.0129737854003906,
+      "valid_pixels": 196609,
+      "coverage": 1.0
+    },
+    "depth_order": {
+      "available": true,
+      "value": 1.0,
+      "pairs": [
+        {
+          "a": "obj_002",
+          "b": "obj_009",
+          "reference_delta": 0.3747258186340332,
+          "render_delta": 0.4800894260406494,
+          "correct": true
+        },
+        {
+          "a": "obj_002",
+          "b": "obj_012",
+          "reference_delta": -0.5140514373779297,
+          "render_delta": -0.3246440887451172,
+          "correct": true
+        },
+        {
+          "a": "obj_002",
+          "b": "obj_013",
+          "reference_delta": -0.5046100616455078,
+          "render_delta": -0.4577922821044922,
+          "correct": true
+        },
+        {
+          "a": "obj_009",
+          "b": "obj_012",
+          "reference_delta": -0.8887772560119629,
+          "render_delta": -0.8047335147857666,
+          "correct": true
+        },
+        {
+          "a": "obj_009",
+          "b": "obj_013",
+          "reference_delta": -0.879335880279541,
+          "render_delta": -0.9378817081451416,
+          "correct": true
+        },
+        {
+          "a": "obj_009",
+          "b": "obj_015",
+          "reference_delta": -0.3699955940246582,
+          "render_delta": -0.4065816402435303,
+          "correct": true
+        },
+        {
+          "a": "obj_009",
+          "b": "obj_016",
+          "reference_delta": -0.5138950347900391,
+          "render_delta": -0.5858500003814697,
+          "correct": true
+        },
+        {
+          "a": "obj_012",
+          "b": "obj_015",
+          "reference_delta": 0.5187816619873047,
+          "render_delta": 0.39815187454223633,
+          "correct": true
+        },
+        {
+          "a": "obj_012",
+          "b": "obj_016",
+          "reference_delta": 0.37488222122192383,
+          "render_delta": 0.21888351440429688,
+          "correct": true
+        },
+        {
+          "a": "obj_013",
+          "b": "obj_015",
+          "reference_delta": 0.5093402862548828,
+          "render_delta": 0.5313000679016113,
+          "correct": true
+        },
+        {
+          "a": "obj_013",
+          "b": "obj_016",
+          "reference_delta": 0.36544084548950195,
+          "render_delta": 0.3520317077636719,
+          "correct": true
+        }
+      ]
+    },
+    "surface_normal_degrees": {
+      "available": false,
+      "value": null,
+      "frame": "blender_world",
+      "unit": "degrees",
+      "per_surface": {},
+      "expected_surfaces": 0,
+      "matched_surfaces": 0,
+      "selection_component": 1.0,
+      "missing_surface_penalty": 1.0,
+      "comparison": "unsigned angle to measured plane; no depth scale fitting; distance is diagnostic only",
+      "reason": "no matched reliable reference/render planes"
+    },
+    "albedo_linear_mae": {
+      "available": true,
+      "value": 0.06734437495470047,
+      "pixels": 81574,
+      "constraint": "soft"
+    },
+    "shading_linear_nmae": {
+      "available": true,
+      "value": 0.8053178051503543,
+      "scale": 0.17981073121883823,
+      "alignment": "one positive scalar shared by RGB; no per-channel recoloring"
+    },
+    "rgb_srgb_mae": {
+      "available": true,
+      "value": 0.13576777279376984
+    },
+    "rgb_psnr": {
+      "available": true,
+      "value": 14.324212920241939,
+      "domain": "display sRGB"
+    },
+    "light_contributions": {
+      "available": true,
+      "groups": {
+        "light_001": {
+          "mean_linear_luminance": 0.022565327922461176,
+          "by_object": {
+            "obj_001": 0.007062656786343092,
+            "obj_002": 0.022052885786889933,
+            "obj_009": 0.05977677071150131,
+            "obj_012": 0.08600998911044072,
+            "obj_013": 0.19808796353322233,
+            "obj_015": 0.028872496717226685,
+            "obj_016": 0.01821134786915345,
+            "obj_022": 0.006569796949396853,
+            "obj_026": 0.005561787890048558,
+            "obj_030": 0.0035007680879481718
+          }
+        },
+        "light_002": {
+          "mean_linear_luminance": 0.272928465098781,
+          "by_object": {
+            "obj_001": 0.31893076659350345,
+            "obj_002": 0.00013808915615790164,
+            "obj_009": 0.0027441256890720273,
+            "obj_012": 0.3578312838116318,
+            "obj_013": 0.29455549869433445,
+            "obj_015": 0.008004837207372332,
+            "obj_016": 0.014690678399615478,
+            "obj_022": 0.28453966666629754,
+            "obj_026": 0.6126022107434062,
+            "obj_030": 0.2243763482463198
+          }
+        },
+        "world": {
+          "mean_linear_luminance": 0.0,
+          "by_object": {
+            "obj_001": 0.0,
+            "obj_002": 0.0,
+            "obj_009": 0.0,
+            "obj_012": 0.0,
+            "obj_013": 0.0,
+            "obj_015": 0.0,
+            "obj_016": 0.0,
+            "obj_022": 0.0,
+            "obj_026": 0.0,
+            "obj_030": 0.0
+          }
+        }
+      },
+      "additive_closure_nmae": 1.5594508642803206e-06,
+      "reference_per_light_ground_truth": false
+    },
+    "illumination_group_contributions": {
+      "daylight_01": {
+        "id": "daylight_01",
+        "type": "daylight",
+        "label": "Outdoor daylight through the storefront glazing",
+        "sun_light_id": null,
+        "gain": 1.0,
+        "enabled": true,
+        "members": [
+          "light_001",
+          "light_002"
+        ],
+        "world_included": false,
+        "available": true,
+        "mean_linear_luminance": 0.2954937930212422,
+        "by_object": {
+          "obj_001": 0.32599342337984655,
+          "obj_002": 0.022190974943047833,
+          "obj_009": 0.06252089640057333,
+          "obj_012": 0.44384127292207254,
+          "obj_013": 0.4926434622275568,
+          "obj_015": 0.03687733392459902,
+          "obj_016": 0.032902026268768925,
+          "obj_022": 0.2911094636156944,
+          "obj_026": 0.6181639986334547,
+          "obj_030": 0.22787711633426797
+        },
+        "reference_per_group_ground_truth": false
+      }
+    }
+  },
+  "selection_loss": 0.42911786821942033,
+  "lower_is_better": true,
+  "weights": {
+    "silhouette": 2.0,
+    "depth": 1.0,
+    "normal": 0.5,
+    "albedo": 0.5,
+    "shading": 1.0,
+    "rgb": 1.0
+  },
+  "component_losses": {
+    "silhouette": 0.5322527299614874,
+    "depth": 0.0354439839720726,
+    "albedo": 0.06734437495470047,
+    "shading": 0.8053178051503543,
+    "rgb": 0.13576777279376984
+  },
+  "missing_component_penalties": {
+    "normal": 1.0
+  },
+  "warnings": [
+    "Single-image geometry/intrinsics/HDRI are estimates; these scores are not physical ground truth."
+  ]
+}

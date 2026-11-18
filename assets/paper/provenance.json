@@ -1,0 +1,37 @@
+{
+  "source": "_CVPR_27__LightHarness (3).pdf",
+  "sha256": "045ec6c562063f12f52610b539a446a42118e8f042b5debd1abd8728fbb7fe06",
+  "figures": [
+    {
+      "name": "teaser",
+      "page_1_based": 1,
+      "clip_points": [
+        58,
+        244,
+        554,
+        380
+      ]
+    },
+    {
+      "name": "method",
+      "page_1_based": 4,
+      "clip_points": [
+        58,
+        71,
+        554,
+        302
+      ]
+    },
+    {
+      "name": "qualitative",
+      "page_1_based": 6,
+      "clip_points": [
+        58,
+        72,
+        554,
+        462
+      ]
+    }
+  ],
+  "operation": "PDF crop and 288-dpi rasterization; no content edits"
+}

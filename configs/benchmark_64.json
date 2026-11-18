@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "id": "hypersim_ai_047_008_frame0087",
+      "image": "../data/benchmark/026_hypersim_ai_047_008_frame0087.jpg"
+    },
+    {
+      "id": "hypersim_ai_012_004_frame0025",
+      "image": "../data/benchmark/027_hypersim_ai_012_004_frame0025.jpg"
+    },
+    {
+      "id": "luxremix_014683_0000_back",
+      "image": "../data/benchmark/029_luxremix_014683_0000_back.png"
+    },
+    {
+      "id": "luxremix_014683_0001_right",
+      "image": "../data/benchmark/030_luxremix_014683_0001_right.png"
+    },
+    {
+      "id": "luxremix_014684_0000_front",
+      "image": "../data/benchmark/031_luxremix_014684_0000_front.png"
+    },
+    {
+      "id": "scene_rig_winter",
+      "image": "../data/benchmark/032_scene_rig_winter.png"
+    }
+  ],
+  "rounds": 10,
+  "parallelism": 1
+}

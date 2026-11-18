@@ -1,0 +1,6 @@
+# Host, offline demo and basic image metrics. Python 3.11.
+numpy==1.26.4
+Pillow==11.1.0
+requests==2.32.3
+opencv-python-headless==4.11.0.86
+OpenEXR==3.3.3

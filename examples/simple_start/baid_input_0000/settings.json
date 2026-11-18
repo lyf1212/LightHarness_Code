@@ -1,0 +1,12 @@
+{
+  "samples": 512,
+  "device": "OPTIX",
+  "exposure": 0.0,
+  "depth_type": "camera_z",
+  "use_denoising": true,
+  "denoiser": "OPENIMAGEDENOISE",
+  "use_adaptive_sampling": true,
+  "adaptive_threshold": 0.01,
+  "adaptive_min_samples": 0,
+  "seed": 42
+}

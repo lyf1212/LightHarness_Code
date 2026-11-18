@@ -1,0 +1,49 @@
+{
+  "best_round": 5,
+  "last_round": 9,
+  "selection": "minimum fixed-weight selection_loss among completed rounds",
+  "round_losses": [
+    {
+      "round": 0,
+      "loss": 0.43620642499812873
+    },
+    {
+      "round": 1,
+      "loss": 0.46172531052349
+    },
+    {
+      "round": 2,
+      "loss": 0.4551041280165227
+    },
+    {
+      "round": 3,
+      "loss": 0.4295417798312588
+    },
+    {
+      "round": 4,
+      "loss": 0.4295162481421957
+    },
+    {
+      "round": 5,
+      "loss": 0.42911786821942033
+    },
+    {
+      "round": 6,
+      "loss": 0.42955918321980585
+    },
+    {
+      "round": 7,
+      "loss": 0.4292957308719527
+    },
+    {
+      "round": 8,
+      "loss": 0.4332438230664534
+    },
+    {
+      "round": 9,
+      "loss": 0.4338298557574727
+    }
+  ],
+  "state_matches_selected_scene": true,
+  "note": "run/state.json is the latest state; final/state.json belongs to best_round"
+}

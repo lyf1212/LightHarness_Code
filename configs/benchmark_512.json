@@ -1,0 +1,110 @@
+{
+  "images": [
+    {
+      "id": "fivek_a4826-Duggan_080821_1199",
+      "image": "../data/benchmark/001_fivek_a4826-Duggan_080821_1199.jpg"
+    },
+    {
+      "id": "fivek_a4862-jmac_MG_1010",
+      "image": "../data/benchmark/002_fivek_a4862-jmac_MG_1010.jpg"
+    },
+    {
+      "id": "fivek_a4864-jmacdscf0536",
+      "image": "../data/benchmark/003_fivek_a4864-jmacdscf0536.jpg"
+    },
+    {
+      "id": "fivek_a4898-Duggan_090212_5075",
+      "image": "../data/benchmark/004_fivek_a4898-Duggan_090212_5075.jpg"
+    },
+    {
+      "id": "fivek_a4942-kme_0895",
+      "image": "../data/benchmark/005_fivek_a4942-kme_0895.jpg"
+    },
+    {
+      "id": "hypersim_ai_051_003_frame0000",
+      "image": "../data/benchmark/006_hypersim_ai_051_003_frame0000.jpg"
+    },
+    {
+      "id": "hypersim_ai_051_003_frame0002",
+      "image": "../data/benchmark/007_hypersim_ai_051_003_frame0002.jpg"
+    },
+    {
+      "id": "hypersim_ai_051_003_frame0005",
+      "image": "../data/benchmark/008_hypersim_ai_051_003_frame0005.jpg"
+    },
+    {
+      "id": "hypersim_ai_051_003_frame0039",
+      "image": "../data/benchmark/009_hypersim_ai_051_003_frame0039.jpg"
+    },
+    {
+      "id": "hypersim_ai_051_003_frame0045",
+      "image": "../data/benchmark/010_hypersim_ai_051_003_frame0045.jpg"
+    },
+    {
+      "id": "luxremix_014693_0000_0004_front",
+      "image": "../data/benchmark/011_luxremix_014693_0000_0004_front.png"
+    },
+    {
+      "id": "hypersim_ai_012_004_frame0019",
+      "image": "../data/benchmark/012_hypersim_ai_012_004_frame0019.jpg"
+    },
+    {
+      "id": "hypersim_ai_012_004_frame0031",
+      "image": "../data/benchmark/013_hypersim_ai_012_004_frame0031.jpg"
+    },
+    {
+      "id": "baid_input_0000",
+      "image": "../data/benchmark/014_baid_input_0000.jpg"
+    },
+    {
+      "id": "baid_input_0358",
+      "image": "../data/benchmark/015_baid_input_0358.jpg"
+    },
+    {
+      "id": "baid_input_0354",
+      "image": "../data/benchmark/016_baid_input_0354.jpg"
+    },
+    {
+      "id": "baid_input_0347",
+      "image": "../data/benchmark/017_baid_input_0347.jpg"
+    },
+    {
+      "id": "baid_input_0320",
+      "image": "../data/benchmark/018_baid_input_0320.jpg"
+    },
+    {
+      "id": "baid_input_0301",
+      "image": "../data/benchmark/019_baid_input_0301.jpg"
+    },
+    {
+      "id": "baid_input_0084",
+      "image": "../data/benchmark/020_baid_input_0084.jpg"
+    },
+    {
+      "id": "baid_input_0002",
+      "image": "../data/benchmark/021_baid_input_0002.jpg"
+    },
+    {
+      "id": "baid_output_0004",
+      "image": "../data/benchmark/022_baid_output_0004.jpg"
+    },
+    {
+      "id": "baid_output_0032",
+      "image": "../data/benchmark/023_baid_output_0032.jpg"
+    },
+    {
+      "id": "fivek_a4728-DSC_0082",
+      "image": "../data/benchmark/024_fivek_a4728-DSC_0082.jpg"
+    },
+    {
+      "id": "fivek_a4791-Duggan_090131_4873",
+      "image": "../data/benchmark/025_fivek_a4791-Duggan_090131_4873.jpg"
+    },
+    {
+      "id": "hypersim_ai_015_007_frame0040",
+      "image": "../data/benchmark/028_hypersim_ai_015_007_frame0040.jpg"
+    }
+  ],
+  "rounds": 10,
+  "parallelism": 1
+}

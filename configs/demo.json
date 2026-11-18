@@ -1,0 +1,77 @@
+{
+  "seed": 42,
+  "gpu": "0",
+  "max_side": 768,
+  "rounds": 10,
+  "max_repairs": 2,
+  "worker_timeout": 2400,
+  "worker_queue_timeout": 86400,
+  "worker_reconnect_attempts": 3,
+  "scene_median_depth": 4.0,
+  "depth_confidence_quantile": 0.5,
+  "residual_threshold": 0.12,
+  "blender": "blender",
+  "llm": {
+    "api": "responses",
+    "model": "gpt-6-astra",
+    "base_url": null,
+    "api_key_env": "OPENAI_API_KEY",
+    "stream": false,
+    "reasoning_effort": "xhigh",
+    "max_output_tokens": 48000,
+    "timeout": 1800,
+    "max_retries": 20,
+    "retry_initial_delay": 2,
+    "retry_max_delay": 60,
+    "retry_window": 3600
+  },
+  "render": {
+    "samples": 16,
+    "use_denoising": true,
+    "denoiser": "OPENIMAGEDENOISE",
+    "use_adaptive_sampling": true,
+    "adaptive_threshold": 0.01,
+    "adaptive_min_samples": 0,
+    "device": "CPU",
+    "gpu": "0",
+    "threads": 8,
+    "exposure": 0.0,
+    "timeout": 1200,
+    "depth_type": "camera_z"
+  },
+  "sam3": {
+    "python": ".venv-sam3/bin/python",
+    "repo": "third_party/sam3",
+    "checkpoint": "models/sam3/sam3.pt",
+    "device": "cuda",
+    "threshold": 0.3,
+    "min_match_score": 0.01
+  },
+  "vggt": {
+    "python": ".venv-vggt/bin/python",
+    "repo": "third_party/vggt",
+    "checkpoint": "models/vggt/model.pt",
+    "device": "cuda"
+  },
+  "marigold": {
+    "python": ".venv-marigold/bin/python",
+    "checkpoint": "models/marigold-iid-lighting-v1-1",
+    "device": "cuda",
+    "steps": 4,
+    "resolution": 768
+  },
+  "lumen": {
+    "mode": "disabled",
+    "python": ".venv-lumen/bin/python",
+    "repo": "third_party/lumen",
+    "flux_checkpoint": "models/FLUX.1-dev",
+    "lora_checkpoint": "models/lumen/pytorch_lora_weights.safetensors",
+    "redux_checkpoint": "models/FLUX.1-Redux-dev",
+    "width": 1024,
+    "height": 512,
+    "hdr_path": null,
+    "forward_world": null,
+    "up_world": null,
+    "longitude_sign": null
+  }
+}

@@ -1,0 +1,1149 @@
+{
+  "schema_version": 1,
+  "revision": 6,
+  "objects": {
+    "obj_001": {
+      "id": "obj_001",
+      "label": "Visible exterior paving",
+      "prompt": "paved pedestrian ground beneath the outdoor furniture and pedestrians",
+      "role": "ground",
+      "bbox": [
+        0.0,
+        0.842,
+        0.419,
+        1.0
+      ],
+      "confidence": 0.72,
+      "notes": "Fragmentary ground plane, extensively occluded. Its transition to any interior floor is not visible."
+    },
+    "obj_002": {
+      "id": "obj_002",
+      "label": "Dark interior wall",
+      "prompt": "dark charcoal interior wall on the right behind the plant and charging kiosk",
+      "role": "wall",
+      "bbox": [
+        0.657,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.96,
+      "notes": "Opaque, approximately planar. Darkness reflects both low illumination and uncertain surface albedo; do not assume nearly black paint."
+    },
+    "obj_003": {
+      "id": "obj_003",
+      "label": "Main window aperture",
+      "prompt": "large left window opening bounded on the right by the dark vertical mullion",
+      "role": "object",
+      "bbox": [
+        0.0,
+        0.0,
+        0.516,
+        1.0
+      ],
+      "confidence": 0.94,
+      "notes": "Architectural opening, not an emitting surface. Left, upper and lower limits extend outside the image or are obscured."
+    },
+    "obj_004": {
+      "id": "obj_004",
+      "label": "Main window glazing",
+      "prompt": "clear glass pane across the large left window opening",
+      "role": "object",
+      "bbox": [
+        0.0,
+        0.0,
+        0.516,
+        1.0
+      ],
+      "confidence": 0.85,
+      "notes": "Thin transmissive, mildly reflective glazing in obj_003. Exterior objects are seen through it; their masks must not become glass geometry."
+    },
+    "obj_005": {
+      "id": "obj_005",
+      "label": "Narrow right window aperture",
+      "prompt": "narrow vertical window opening between the central black mullion and the right wall jamb",
+      "role": "object",
+      "bbox": [
+        0.533,
+        0.0,
+        0.641,
+        0.558
+      ],
+      "confidence": 0.9,
+      "notes": "Separate opening from obj_003. Lower extent is hidden behind the acrylic panel, plant and kiosk."
+    },
+    "obj_006": {
+      "id": "obj_006",
+      "label": "Narrow right window glazing",
+      "prompt": "clear glass in the narrow window bay immediately right of the central mullion",
+      "role": "object",
+      "bbox": [
+        0.533,
+        0.0,
+        0.641,
+        0.558
+      ],
+      "confidence": 0.84,
+      "notes": "Non-emissive transmissive pane associated with obj_005."
+    },
+    "obj_007": {
+      "id": "obj_007",
+      "label": "Central window mullion",
+      "prompt": "thick dark vertical window mullion near the image center behind the drink and clear panel",
+      "role": "object",
+      "bbox": [
+        0.51,
+        0.0,
+        0.541,
+        0.565
+      ],
+      "confidence": 0.96,
+      "notes": "Opaque structural blocker. Upper section is clear; lower continuation is partly concealed."
+    },
+    "obj_008": {
+      "id": "obj_008",
+      "label": "Right window jamb and reveal",
+      "prompt": "narrow dark window frame and recessed wall edge immediately left of the right interior wall",
+      "role": "object",
+      "bbox": [
+        0.634,
+        0.0,
+        0.682,
+        0.571
+      ],
+      "confidence": 0.89,
+      "notes": "Use shallow solid frame geometry rather than an emitting strip."
+    },
+    "obj_009": {
+      "id": "obj_009",
+      "label": "Power-bank rental kiosk cabinet",
+      "prompt": "large rounded gray charging kiosk with side slots, an oblong front recess and green Chinese lettering",
+      "role": "object",
+      "bbox": [
+        0.408,
+        0.549,
+        0.838,
+        1.0
+      ],
+      "confidence": 0.94,
+      "notes": "Opaque multi-face cabinet, not a floor or support-surface root. Preserve rounded corners, recessed slots and dark front details. Bottom is off-frame; lettering can be a non-emissive decal."
+    },
+    "obj_010": {
+      "id": "obj_010",
+      "label": "Kiosk upper support plane",
+      "prompt": "thin rounded top surface of the gray kiosk beneath the drink, acrylic panel and plant pot",
+      "role": "support_surface",
+      "bbox": [
+        0.417,
+        0.548,
+        0.825,
+        0.607
+      ],
+      "confidence": 0.76,
+      "notes": "Only the approximately horizontal upper face of obj_009. Share its boundary with the cabinet to avoid overlapping duplicate faces."
+    },
+    "obj_011": {
+      "id": "obj_011",
+      "label": "Takeaway drink cup",
+      "prompt": "single brown takeaway drink cup standing on the left side of the kiosk top",
+      "role": "object",
+      "bbox": [
+        0.436,
+        0.409,
+        0.528,
+        0.567
+      ],
+      "confidence": 0.98,
+      "notes": "Tapered cup with dark brown contents or sleeve. The pale cup-like shape to its right is probably a reflection, not another drink."
+    },
+    "obj_012": {
+      "id": "obj_012",
+      "label": "Transparent domed cup lid",
+      "prompt": "clear plastic dome lid and circular rim on the takeaway drink",
+      "role": "object",
+      "bbox": [
+        0.428,
+        0.345,
+        0.534,
+        0.432
+      ],
+      "confidence": 0.98,
+      "notes": "Thin transparent shell with specular highlights; highlights are not evidence of self-emission."
+    },
+    "obj_013": {
+      "id": "obj_013",
+      "label": "Drink straw",
+      "prompt": "short translucent straw projecting upward from the drink dome lid",
+      "role": "object",
+      "bbox": [
+        0.48,
+        0.279,
+        0.496,
+        0.362
+      ],
+      "confidence": 0.89,
+      "notes": "Small tubular object with uncertain exact diameter and inclination."
+    },
+    "obj_014": {
+      "id": "obj_014",
+      "label": "Clear acrylic upright panel",
+      "prompt": "upright clear rectangular acrylic panel behind the drink, with a sloping top edge in perspective and a reflected cup",
+      "role": "object",
+      "bbox": [
+        0.515,
+        0.217,
+        0.612,
+        0.569
+      ],
+      "confidence": 0.92,
+      "notes": "Important transmissive and reflective surface, likely a sign holder or divider. Model finite thickness and orientation; do not replace its reflected drink with a second physical cup."
+    },
+    "obj_015": {
+      "id": "obj_015",
+      "label": "Green plant pot",
+      "prompt": "dark green tapered plant pot on the right side of the charging kiosk",
+      "role": "object",
+      "bbox": [
+        0.611,
+        0.369,
+        0.777,
+        0.562
+      ],
+      "confidence": 0.98,
+      "notes": "Opaque tapered container with a broad upper rim. Its base rests on obj_010."
+    },
+    "obj_016": {
+      "id": "obj_016",
+      "label": "Succulent plant foliage",
+      "prompt": "small branching succulent with many oval leaves growing from the green pot",
+      "role": "object",
+      "bbox": [
+        0.591,
+        0.23,
+        0.801,
+        0.477
+      ],
+      "confidence": 0.96,
+      "notes": "Separate leaves and stems, or a depth-bearing foliage approximation. Preserve gaps because the silhouette filters exterior light."
+    },
+    "obj_017": {
+      "id": "obj_017",
+      "label": "Lower-left cafe table frame",
+      "prompt": "cropped dark metal cafe table legs and support frame at the lower left",
+      "role": "object",
+      "bbox": [
+        0.0,
+        0.943,
+        0.14,
+        1.0
+      ],
+      "confidence": 0.66,
+      "notes": "Mostly off-frame and overlapping chairs; exact leg arrangement is uncertain."
+    },
+    "obj_018": {
+      "id": "obj_018",
+      "label": "Lower-left cafe tabletop",
+      "prompt": "thin dark horizontal cafe tabletop entering from the left edge near the bottom",
+      "role": "tabletop",
+      "bbox": [
+        0.0,
+        0.924,
+        0.146,
+        0.957
+      ],
+      "confidence": 0.83,
+      "notes": "Planar upper face only; associate with obj_017."
+    },
+    "obj_019": {
+      "id": "obj_019",
+      "label": "Left metal cafe chair",
+      "prompt": "left dark metal cafe chair with thin curved frame and horizontal back rails near the bottom",
+      "role": "object",
+      "bbox": [
+        0.062,
+        0.855,
+        0.224,
+        1.0
+      ],
+      "confidence": 0.72,
+      "notes": "Partially cropped and interleaved with the neighboring chair; preserve open frame spaces."
+    },
+    "obj_020": {
+      "id": "obj_020",
+      "label": "Right metal cafe chair",
+      "prompt": "right dark metal cafe chair with curved uprights and horizontal rails in the lower center-left",
+      "role": "object",
+      "bbox": [
+        0.14,
+        0.852,
+        0.279,
+        1.0
+      ],
+      "confidence": 0.75,
+      "notes": "Separate instance from obj_019. Their exact depth order is uncertain."
+    },
+    "obj_021": {
+      "id": "obj_021",
+      "label": "Exterior pedestrian railing",
+      "prompt": "pale metal railing with repeated vertical bars behind the chairs and left of the foreground kiosk",
+      "role": "object",
+      "bbox": [
+        0.27,
+        0.832,
+        0.42,
+        1.0
+      ],
+      "confidence": 0.87,
+      "notes": "Open slatted geometry, not a solid rectangular blocker."
+    },
+    "obj_022": {
+      "id": "obj_022",
+      "label": "Exterior diagonal white pole",
+      "prompt": "bright narrow white diagonal pole rising from the pedestrians toward the yellow outdoor structure",
+      "role": "object",
+      "bbox": [
+        0.157,
+        0.609,
+        0.334,
+        0.86
+      ],
+      "confidence": 0.83,
+      "notes": "Appears to be a physical bar or boom arm. Do not interpret this narrow diagonal feature as a volumetric light beam or sun patch."
+    },
+    "obj_023": {
+      "id": "obj_023",
+      "label": "Yellow exterior booth",
+      "prompt": "small yellow and cream outdoor booth with projecting roof behind the railing",
+      "role": "object",
+      "bbox": [
+        0.288,
+        0.691,
+        0.421,
+        0.976
+      ],
+      "confidence": 0.83,
+      "notes": "Distant opaque multi-face structure, partially hidden by people, railing and foreground cabinet."
+    },
+    "obj_024": {
+      "id": "obj_024",
+      "label": "Colorful booth rooftop decoration",
+      "prompt": "yellow orange and pink decorative rooftop sign above the small exterior booth",
+      "role": "object",
+      "bbox": [
+        0.312,
+        0.54,
+        0.455,
+        0.716
+      ],
+      "confidence": 0.76,
+      "notes": "Blurry irregular opaque decoration; no visible evidence that it emits light."
+    },
+    "obj_025": {
+      "id": "obj_025",
+      "label": "Exterior rectangular signboard",
+      "prompt": "plain gray rectangular exterior signboard behind and to the left of the takeaway cup",
+      "role": "object",
+      "bbox": [
+        0.377,
+        0.391,
+        0.453,
+        0.553
+      ],
+      "confidence": 0.84,
+      "notes": "Opaque exterior blocker, likely the back of a sign. Distance and mounting are uncertain."
+    },
+    "obj_026": {
+      "id": "obj_026",
+      "label": "Exterior high-rise facade",
+      "prompt": "large background high-rise facade with pale vertical structural ribs, blue reflective windows and street-level storefronts",
+      "role": "object",
+      "bbox": [
+        0.0,
+        0.0,
+        0.641,
+        0.838
+      ],
+      "confidence": 0.98,
+      "notes": "Major distant sky blocker and daylight reflector, visible across both window bays. Use a distant facade shell with non-emissive materials; unresolved repeated facade windows can remain texture detail rather than invented interior openings."
+    },
+    "obj_027": {
+      "id": "obj_027",
+      "label": "Far-left pedestrian",
+      "prompt": "small pedestrian near the far left edge wearing a light upper garment and dark lower clothing",
+      "role": "object",
+      "bbox": [
+        0.003,
+        0.78,
+        0.037,
+        0.928
+      ],
+      "confidence": 0.63,
+      "notes": "Defocused distant silhouette; detailed anatomy is unsupported."
+    },
+    "obj_028": {
+      "id": "obj_028",
+      "label": "Left light-clothed pedestrian",
+      "prompt": "light-clothed pedestrian beneath the lower end of the diagonal white pole",
+      "role": "object",
+      "bbox": [
+        0.14,
+        0.783,
+        0.18,
+        0.916
+      ],
+      "confidence": 0.65,
+      "notes": "Partly hidden by outdoor furniture."
+    },
+    "obj_029": {
+      "id": "obj_029",
+      "label": "Adjacent light-clothed pedestrian",
+      "prompt": "second light-clothed pedestrian just right of the person beneath the diagonal pole",
+      "role": "object",
+      "bbox": [
+        0.177,
+        0.789,
+        0.215,
+        0.92
+      ],
+      "confidence": 0.6,
+      "notes": "Separate person hypothesis supported by a distinct head and torso; lower body is obscured."
+    },
+    "obj_030": {
+      "id": "obj_030",
+      "label": "Blue-clothed pedestrian behind chairs",
+      "prompt": "small blue or gray clothed pedestrian behind the metal chair backs",
+      "role": "object",
+      "bbox": [
+        0.214,
+        0.786,
+        0.252,
+        0.909
+      ],
+      "confidence": 0.62
+    },
+    "obj_031": {
+      "id": "obj_031",
+      "label": "Dark-clothed central pedestrian",
+      "prompt": "dark-clothed pedestrian standing left of the yellow booth behind the chairs",
+      "role": "object",
+      "bbox": [
+        0.254,
+        0.763,
+        0.301,
+        0.918
+      ],
+      "confidence": 0.79,
+      "notes": "Distinct dark human silhouette; lower body partly occluded."
+    },
+    "obj_032": {
+      "id": "obj_032",
+      "label": "Left pedestrian at booth",
+      "prompt": "small person with a pale lavender upper garment visible in front of the booth",
+      "role": "object",
+      "bbox": [
+        0.318,
+        0.789,
+        0.351,
+        0.854
+      ],
+      "confidence": 0.61,
+      "notes": "Only head and upper torso are distinguishable."
+    },
+    "obj_033": {
+      "id": "obj_033",
+      "label": "Right pedestrian at booth",
+      "prompt": "small person with dark hair and a pale upper garment at the right side of the booth",
+      "role": "object",
+      "bbox": [
+        0.351,
+        0.775,
+        0.382,
+        0.854
+      ],
+      "confidence": 0.6,
+      "notes": "Separate distant upper-body silhouette, partly concealed by the foreground cabinet."
+    }
+  },
+  "lights": {
+    "light_001": {
+      "id": "light_001",
+      "label": "Diffuse outdoor radiance through the two window bays",
+      "source_type": "sky_diffuse",
+      "visibility": "off_frame",
+      "status": "active",
+      "confidence": 0.86,
+      "evidence": [
+        {
+          "source": "reference",
+          "observation": "The exterior is substantially brighter than the room-facing cabinet, cup and plant, strongly supporting illumination arriving through the glazing."
+        },
+        {
+          "source": "reference",
+          "observation": "Broad highlights on the transparent lid and panel are compatible with extended outdoor radiance rather than a visible interior lamp."
+        },
+        {
+          "source": "reference",
+          "observation": "The actual sky is outside the view or blocked by the neighboring facade. Its angular distribution and absolute intensity cannot be measured from this image."
+        }
+      ],
+      "occluded_by": [
+        "obj_007",
+        "obj_008",
+        "obj_026"
+      ],
+      "image_bbox": null,
+      "notes": "Round 3 angular-distribution test: retain main_bay_diffuse and narrow_bay_diffuse identities and preserve total main-bay base energy at 330 W. Allocate 165 W to the existing upper strip and 165 W to main_bay_left_diffuse. The new left strip spans X=-3.35 to -2.35 and Z=-1.78 to 1.62 at Y=5.36, outside calibrated transmitted camera sight lines and below the upper strip's Z=1.65 lower edge. Narrow-bay power stays 42 W. No additional daylight energy is introduced. Evaluate obj_002 wall-shadow distribution, obj_015 brightness and obj_009 front legibility before changing albedo or adding room-bounce hypotheses. Light_002 remains at 6250 and daylight_01 gain remains 1.",
+      "environment_relation": "possibly_in_hdri",
+      "illumination_group_id": "daylight_01",
+      "approximation": {
+        "kind": "sky_diffuse_area",
+        "via_objects": [
+          "obj_003",
+          "obj_005"
+        ],
+        "note": "Approximate diffuse outdoor radiance entering off-frame portions of the actual openings. The main bay is sampled by separate upper and left strips, with a gap between their extents. The windows do not emit, and these extended sources do not represent direct solar rays."
+      },
+      "elements": [
+        {
+          "id": "main_bay_diffuse",
+          "kind": "AREA",
+          "position": [
+            -1.67,
+            5.36,
+            1.95
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "energy": 165.0,
+          "color": [
+            0.82,
+            0.9,
+            1.0
+          ],
+          "size": [
+            3.4,
+            0.6
+          ],
+          "enabled": true
+        },
+        {
+          "id": "narrow_bay_diffuse",
+          "kind": "AREA",
+          "position": [
+            0.383,
+            5.36,
+            1.95
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "energy": 42.0,
+          "color": [
+            0.82,
+            0.9,
+            1.0
+          ],
+          "size": [
+            0.43,
+            0.6
+          ],
+          "enabled": true
+        },
+        {
+          "id": "main_bay_left_diffuse",
+          "kind": "AREA",
+          "position": [
+            -2.85,
+            5.36,
+            -0.08
+          ],
+          "direction": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "energy": 165.0,
+          "color": [
+            0.82,
+            0.9,
+            1.0
+          ],
+          "size": [
+            1.0,
+            3.4
+          ],
+          "enabled": true
+        }
+      ]
+    },
+    "light_002": {
+      "id": "light_002",
+      "label": "Broad diffuse sky illuminating the exterior courtyard",
+      "source_type": "sky_diffuse",
+      "visibility": "off_frame",
+      "status": "active",
+      "confidence": 0.65,
+      "evidence": [
+        {
+          "source": "reference",
+          "observation": "The pale neighboring facade, exterior paving and booth are much brighter than the room-facing foreground. Their illumination requires an exterior incident component, not an emissive facade."
+        },
+        {
+          "source": "reference",
+          "observation": "The actual sky and any diagnostic solar shadow are outside the view; a broad diffuse approximation is used without a direct-sun claim."
+        }
+      ],
+      "occluded_by": [
+        "obj_026"
+      ],
+      "image_bbox": null,
+      "notes": "Round 5 controlled distribution test: move courtyard_diffuse from (-4,8,8) to (-4,8,10). Preserve base energy 6250, direction, dimensions and color. All visible geometry and intrinsic materials are retained from round 4, as are light_001 and daylight_01 gain=1. Compare obj_025 sign tone against obj_026 ribs/panes and obj_001 paving before accepting this placement or selecting further power changes. The new height is a diagnostic hypothesis, not a recovered physical sky position.",
+      "environment_relation": "possibly_in_hdri",
+      "illumination_group_id": "daylight_01",
+      "approximation": {
+        "kind": "sky_diffuse_area",
+        "via_objects": [],
+        "note": "Approximate off-frame diffuse sky incident on exterior geometry. No discrete exterior opening is identified. The height change tests uncertain incident angular distribution; this broad source is neither a luminous window nor a substitute for direct solar rays."
+      },
+      "elements": [
+        {
+          "id": "courtyard_diffuse",
+          "kind": "AREA",
+          "position": [
+            -4.0,
+            8.0,
+            10.0
+          ],
+          "direction": [
+            0.0,
+            0.980581,
+            -0.196116
+          ],
+          "energy": 6250.0,
+          "color": [
+            0.9,
+            0.95,
+            1.0
+          ],
+          "size": [
+            22.0,
+            16.0
+          ],
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "illumination_groups": {
+    "daylight_01": {
+      "id": "daylight_01",
+      "type": "daylight",
+      "label": "Outdoor daylight through the storefront glazing",
+      "sun_light_id": null,
+      "gain": 1.0,
+      "enabled": true
+    }
+  },
+  "world": {
+    "mode": "evidence_only",
+    "strength": 0.0,
+    "rotation_z": 0.0
+  },
+  "history": [
+    {
+      "revision": 0,
+      "round": -1,
+      "event": "initialize",
+      "evidence": "prepare/inventory/output.txt"
+    },
+    {
+      "revision": 1,
+      "round": 0,
+      "event": "patch",
+      "patch": {
+        "base_revision": 0,
+        "reason": "Initialize depth-consistent editable geometry and activate diffuse-only daylight; correct provisional aperture scale before evaluating brightness.",
+        "upsert_lights": [
+          {
+            "id": "light_001",
+            "label": "Diffuse outdoor radiance through the two window bays",
+            "source_type": "sky_diffuse",
+            "status": "active",
+            "confidence": 0.86,
+            "illumination_group_id": "daylight_01",
+            "environment_relation": "possibly_in_hdri",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [
+                "obj_003",
+                "obj_005"
+              ],
+              "note": "Diffuse sky and unresolved exterior bounce entering the actual openings. These invisible incident-light proxies are not luminous glazing and do not represent direct solar rays."
+            },
+            "notes": "The depth-supported foreground is farther away than the inventory's provisional gauge. Aperture positions and areas are corrected accordingly, retaining approximately the original 83 W per square scene unit. The two areas do not overlap. Exterior-facing illumination is assigned separately to light_002; World is disabled.",
+            "elements": [
+              {
+                "id": "main_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -1.67,
+                  5.36,
+                  0.15
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 1100.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  3.4,
+                  3.9
+                ],
+                "enabled": true
+              },
+              {
+                "id": "narrow_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  0.383,
+                  5.36,
+                  0.15
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 140.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  0.43,
+                  3.9
+                ],
+                "enabled": true
+              }
+            ]
+          },
+          {
+            "id": "light_002",
+            "label": "Broad diffuse sky illuminating the exterior courtyard",
+            "source_type": "sky_diffuse",
+            "visibility": "off_frame",
+            "status": "active",
+            "confidence": 0.65,
+            "evidence": [
+              {
+                "source": "reference",
+                "observation": "The pale neighboring facade, exterior paving and booth are much brighter than the room-facing foreground. Their illumination requires an exterior incident component, not an emissive facade."
+              },
+              {
+                "source": "reference",
+                "observation": "The actual sky and any diagnostic solar shadow are outside the view; a broad diffuse approximation is used without a direct-sun claim."
+              }
+            ],
+            "occluded_by": [
+              "obj_026"
+            ],
+            "image_bbox": null,
+            "notes": "Large diffuse-only exterior source, oriented predominantly toward the neighboring facade. The room-facing cabinet is behind its emitting half-space, limiting overlap with light_001. Its power is a provisional exterior calibration in the monocular scene gauge, not a measured sky radiance.",
+            "environment_relation": "possibly_in_hdri",
+            "illumination_group_id": "daylight_01",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [],
+              "note": "Approximate off-frame sky incident on exterior geometry. No discrete exterior skylight opening is identified; this is not a window emitter or a direct-sun substitute."
+            },
+            "elements": [
+              {
+                "id": "courtyard_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -4.0,
+                  8.0,
+                  8.0
+                ],
+                "direction": [
+                  0.0,
+                  0.980581,
+                  -0.196116
+                ],
+                "energy": 25000.0,
+                "color": [
+                  0.9,
+                  0.95,
+                  1.0
+                ],
+                "size": [
+                  22.0,
+                  16.0
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "retire_lights": [],
+        "upsert_illumination_groups": [
+          {
+            "id": "daylight_01",
+            "type": "daylight",
+            "label": "Outdoor daylight through the storefront glazing",
+            "sun_light_id": null,
+            "gain": 1.0,
+            "enabled": true
+          }
+        ],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    },
+    {
+      "revision": 2,
+      "round": 1,
+      "event": "patch",
+      "patch": {
+        "base_revision": 1,
+        "reason": "Correct aperture-proxy visibility using off-frame placement within existing openings, test a targeted reduction of foreground diffuse illumination, and refine independently supported cabinet, pot and foliage geometry while preserving the exterior baseline.",
+        "upsert_lights": [
+          {
+            "id": "light_001",
+            "source_type": "sky_diffuse",
+            "status": "active",
+            "illumination_group_id": "daylight_01",
+            "environment_relation": "possibly_in_hdri",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [
+                "obj_003",
+                "obj_005"
+              ],
+              "note": "Diffuse incident sky and unresolved exterior bounce sampled through the off-frame upper portions of the two actual openings. The non-overlapping proxies remain at the apertures, but above transmitted camera sight lines. Neither the windows nor facade emit; these areas do not represent direct solar rays."
+            },
+            "notes": "Round 0 isolates nearly uniform transmitted radiance from the full-height aperture proxies. Retain each element identity and aperture X/Y position, move its extent above the calibrated image, and reduce only this light's base powers to 30 percent. The upper strips span Z=1.65 to 2.25 within existing openings; at Y=5.36 their lower edges project above the image. Glossy reflections remain available. This changes the uncertain incident angular distribution and must be evaluated before further material or power adjustments. Light_002 remains the unchanged exterior baseline; daylight_01 gain remains 1.",
+            "elements": [
+              {
+                "id": "main_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -1.67,
+                  5.36,
+                  1.95
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 330.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  3.4,
+                  0.6
+                ],
+                "enabled": true
+              },
+              {
+                "id": "narrow_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  0.383,
+                  5.36,
+                  1.95
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 42.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  0.43,
+                  0.6
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "retire_lights": [],
+        "upsert_illumination_groups": [],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "round": 2,
+      "event": "patch",
+      "patch": {
+        "base_revision": 2,
+        "reason": "Controlled exterior-light calibration after successful aperture visibility recovery: reduce only the dominant courtyard diffuse source while preserving geometry, intrinsic materials, foreground lighting and daylight-group gain.",
+        "upsert_lights": [
+          {
+            "id": "light_002",
+            "source_type": "sky_diffuse",
+            "status": "active",
+            "illumination_group_id": "daylight_01",
+            "environment_relation": "possibly_in_hdri",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [],
+              "note": "Approximate off-frame diffuse sky incident on exterior geometry. No discrete exterior skylight opening is identified. This broad source is not a luminous window or a substitute for direct solar rays."
+            },
+            "notes": "Round 2 single-variable test: courtyard_diffuse base energy is reduced from 25000 to 6250, with position, direction, dimensions and color unchanged. The source dominates clipped facade, booth and lid transmission after aperture sight lines were restored. All geometry, albedos, light_001 powers and daylight_01 gain remain unchanged. The quarter-power setting is a diagnostic estimate, not a recovered physical irradiance. Evaluate exterior color and transparent-object detail before further angular-lighting or material edits.",
+            "elements": [
+              {
+                "id": "courtyard_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -4.0,
+                  8.0,
+                  8.0
+                ],
+                "direction": [
+                  0.0,
+                  0.980581,
+                  -0.196116
+                ],
+                "energy": 6250.0,
+                "color": [
+                  0.9,
+                  0.95,
+                  1.0
+                ],
+                "size": [
+                  22.0,
+                  16.0
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "retire_lights": [],
+        "upsert_illumination_groups": [],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "round": 3,
+      "event": "patch",
+      "patch": {
+        "base_revision": 3,
+        "reason": "Preserve recovered exterior exposure; test a power-conserving redistribution of foreground diffuse daylight and correct supported local geometry without changing intrinsic materials or the calibrated camera.",
+        "upsert_lights": [
+          {
+            "id": "light_001",
+            "source_type": "sky_diffuse",
+            "status": "active",
+            "illumination_group_id": "daylight_01",
+            "environment_relation": "possibly_in_hdri",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [
+                "obj_003",
+                "obj_005"
+              ],
+              "note": "Approximate diffuse outdoor radiance entering off-frame portions of the actual openings. The main bay is sampled by separate upper and left strips, with a gap between their extents. The windows do not emit, and these extended sources do not represent direct solar rays."
+            },
+            "notes": "Round 3 angular-distribution test: retain main_bay_diffuse and narrow_bay_diffuse identities and preserve total main-bay base energy at 330 W. Allocate 165 W to the existing upper strip and 165 W to main_bay_left_diffuse. The new left strip spans X=-3.35 to -2.35 and Z=-1.78 to 1.62 at Y=5.36, outside calibrated transmitted camera sight lines and below the upper strip's Z=1.65 lower edge. Narrow-bay power stays 42 W. No additional daylight energy is introduced. Evaluate obj_002 wall-shadow distribution, obj_015 brightness and obj_009 front legibility before changing albedo or adding room-bounce hypotheses. Light_002 remains at 6250 and daylight_01 gain remains 1.",
+            "elements": [
+              {
+                "id": "main_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -1.67,
+                  5.36,
+                  1.95
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 165.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  3.4,
+                  0.6
+                ],
+                "enabled": true
+              },
+              {
+                "id": "narrow_bay_diffuse",
+                "kind": "AREA",
+                "position": [
+                  0.383,
+                  5.36,
+                  1.95
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 42.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  0.43,
+                  0.6
+                ],
+                "enabled": true
+              },
+              {
+                "id": "main_bay_left_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -2.85,
+                  5.36,
+                  -0.08
+                ],
+                "direction": [
+                  0.0,
+                  -1.0,
+                  0.0
+                ],
+                "energy": 165.0,
+                "color": [
+                  0.82,
+                  0.9,
+                  1.0
+                ],
+                "size": [
+                  1.0,
+                  3.4
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "retire_lights": [],
+        "upsert_illumination_groups": [],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "round": 4,
+      "event": "patch",
+      "patch": {
+        "base_revision": 4,
+        "reason": "Apply the deferred uniform wall-reflectance correction and supported facade/rooftop geometry refinements while preserving the successful daylight configuration and foreground geometry.",
+        "upsert_lights": [],
+        "retire_lights": [],
+        "upsert_illumination_groups": [],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    },
+    {
+      "revision": 6,
+      "round": 5,
+      "event": "patch",
+      "patch": {
+        "base_revision": 5,
+        "reason": "Isolate the deferred exterior diffuse-source height test while preserving geometry, intrinsic materials, aperture lighting and daylight-group gain; add non-rendering acrylic reflection ray diagnostics.",
+        "upsert_lights": [
+          {
+            "id": "light_002",
+            "source_type": "sky_diffuse",
+            "status": "active",
+            "illumination_group_id": "daylight_01",
+            "environment_relation": "possibly_in_hdri",
+            "approximation": {
+              "kind": "sky_diffuse_area",
+              "via_objects": [],
+              "note": "Approximate off-frame diffuse sky incident on exterior geometry. No discrete exterior opening is identified. The height change tests uncertain incident angular distribution; this broad source is neither a luminous window nor a substitute for direct solar rays."
+            },
+            "notes": "Round 5 controlled distribution test: move courtyard_diffuse from (-4,8,8) to (-4,8,10). Preserve base energy 6250, direction, dimensions and color. All visible geometry and intrinsic materials are retained from round 4, as are light_001 and daylight_01 gain=1. Compare obj_025 sign tone against obj_026 ribs/panes and obj_001 paving before accepting this placement or selecting further power changes. The new height is a diagnostic hypothesis, not a recovered physical sky position.",
+            "elements": [
+              {
+                "id": "courtyard_diffuse",
+                "kind": "AREA",
+                "position": [
+                  -4.0,
+                  8.0,
+                  10.0
+                ],
+                "direction": [
+                  0.0,
+                  0.980581,
+                  -0.196116
+                ],
+                "energy": 6250.0,
+                "color": [
+                  0.9,
+                  0.95,
+                  1.0
+                ],
+                "size": [
+                  22.0,
+                  16.0
+                ],
+                "enabled": true
+              }
+            ]
+          }
+        ],
+        "retire_lights": [],
+        "upsert_illumination_groups": [],
+        "world": {
+          "mode": "evidence_only",
+          "strength": 0.0,
+          "rotation_z": 0.0
+        }
+      }
+    }
+  ]
+}
